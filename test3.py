@@ -570,6 +570,7 @@ class NetworkScanner:
 def main():
     timer = Timer()
     timer.start()
+    TEST_DOMAIN = "apapi.houtai.io"
     
     linked_list = DoublyLinkedList()
     for i in range(10):
